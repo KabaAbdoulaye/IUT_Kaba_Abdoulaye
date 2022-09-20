@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=moteur_robot_kaba_abdoulaye.X
+PROJECTNAME=IUT_Kaba_Abdoulaye
 
 # Active Configuration
 DEFAULTCONF=default

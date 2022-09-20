@@ -3,13 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/TP-EO-5/Desktop/20221209_Robot_Kaba_Abdoulaye/moteur_robot_kaba_abdoulaye.X/IO.h</file>
-            <file>file:/C:/Users/TP-EO-5/Desktop/20221209_Robot_Kaba_Abdoulaye/moteur_robot_kaba_abdoulaye.X/ChipConfig.c</file>
-            <file>file:/C:/Users/TP-EO-5/Desktop/20221209_Robot_Kaba_Abdoulaye/moteur_robot_kaba_abdoulaye.X/main.c</file>
-            <file>file:/C:/Users/TP-EO-5/Desktop/20221209_Robot_Kaba_Abdoulaye/moteur_robot_kaba_abdoulaye.X/timer.c</file>
-            <file>file:/C:/Users/TP-EO-5/Desktop/20221209_Robot_Kaba_Abdoulaye/moteur_robot_kaba_abdoulaye.X/ChipConfig.h</file>
-            <file>file:/C:/Users/TP-EO-5/Desktop/20221209_Robot_Kaba_Abdoulaye/moteur_robot_kaba_abdoulaye.X/IO.c</file>
-            <file>file:/C:/Users/TP-EO-5/Desktop/20221209_Robot_Kaba_Abdoulaye/moteur_robot_kaba_abdoulaye.X/timer.h</file>
+            <file>file:/C:/GitHub/IUT_Kaba_Abdoulaye/ToolBox.c</file>
+            <file>file:/C:/GitHub/IUT_Kaba_Abdoulaye/timer.c</file>
+            <file>file:/C:/GitHub/IUT_Kaba_Abdoulaye/IO.c</file>
+            <file>file:/C:/GitHub/IUT_Kaba_Abdoulaye/Robot.c</file>
+            <file>file:/C:/GitHub/IUT_Kaba_Abdoulaye/Robot.h</file>
+            <file>file:/C:/GitHub/IUT_Kaba_Abdoulaye/PWM.c</file>
+            <file>file:/C:/GitHub/IUT_Kaba_Abdoulaye/timer.h</file>
+            <file>file:/C:/GitHub/IUT_Kaba_Abdoulaye/ChipConfig.h</file>
+            <file>file:/C:/GitHub/IUT_Kaba_Abdoulaye/PWM.h</file>
+            <file>file:/C:/GitHub/IUT_Kaba_Abdoulaye/main.c</file>
+            <file>file:/C:/GitHub/IUT_Kaba_Abdoulaye/IO.h</file>
+            <file>file:/C:/GitHub/IUT_Kaba_Abdoulaye/ToolBox.h</file>
         </group>
     </open-files>
 </project-private>
