@@ -1,6 +1,8 @@
 #include <xc.h>
 #include "timer.h"
+#include "PWM.h"
 #include "IO.h"
+unsigned char toggle = 0;
 
 //Initialisation d?un timer 32 bits
 
@@ -25,6 +27,15 @@ void InitTimer23(void) {
 
 void __attribute__((interrupt, no_auto_psv)) _T3Interrupt(void) {
     IFS0bits.T3IF = 0; // Clear Timer3 Interrupt Flag
+    
+    if(toggle == 0){
+        
+        toggle = 1;
+    }
+    else {
+      
+      toggle = 0;
+    }
     LED_ORANGE = !LED_ORANGE;
 }
 
@@ -33,7 +44,7 @@ void __attribute__((interrupt, no_auto_psv)) _T3Interrupt(void) {
 void InitTimer1(void) {
     //Timer1 pour horodater les mesures (1ms)
     T1CONbits.TON = 0; // Disable Timer
-    T1CONbits.TCKPS = 0b10; //Prescaler
+    T1CONbits.TCKPS = 0b10; //Prescaler /64
     //11 = 1:256 prescale value
     //10 = 1:64 prescale value
     //01 = 1:8 prescale value

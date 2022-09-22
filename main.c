@@ -29,8 +29,6 @@ int main(void) {
      * Test des moteurs
      */
     InitPWM();
-    //1: Moteur Gauche; 0: Moteur Droit
-    PWMSetSpeed(1, -20);
     
 
     /****************************************************************************************************/
